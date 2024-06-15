@@ -1,16 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Sach{
+class 
+{
     protected:
         string maSach;
         string tenSach;
         string nhaXuatBan;
         int soLuong;
         double donGia;
+
     public:
         Sach(const string& ms = "", const string& ts = "", const string& nxb = "", int soLuong = 0, double donGia = 0)
             : maSach(ms), tenSach(ts), nhaXuatBan(nxb), soLuong(soLuong), donGia(donGia){}
+
         virtual ~Sach(){}
 
         string getMaSach(){return maSach;}
@@ -25,7 +28,8 @@ class Sach{
         void setSoLuong(int x){soLuong = x;}
         void setDonGia(double x){donGia = x;}
 
-        virtual void Nhap(){
+        virtual void Nhap()
+        {
             cout << "Nhap ma sach: ";
             getline(cin, maSach);
             cout << "Nhap ten sach: ";
@@ -38,7 +42,8 @@ class Sach{
             cin >> donGia;
         }
 
-        virtual void Xuat(){
+        virtual void Xuat()
+        {
             cout << "Ma sach: " << maSach << endl;
             cout << "Ten sach: " << tenSach << endl;
             cout << "Nha xuat ban: " << nhaXuatBan << endl;
@@ -50,91 +55,110 @@ class Sach{
         virtual int getLoai() = 0;
 };
 
-class SGK : public Sach{
+class SGK : public Sach
+{
     private:
         int tinhTrang;
+
     public:
         SGK(const string& ms = "", const string& ts = "", const string& nxb = "", int soLuong = 0, double donGia = 0, int tt = -1)
             : Sach(ms, ts, nxb, soLuong, donGia), tinhTrang(tt){}
+
         ~SGK(){}
 
         int getSoLuong(){return soLuong;}
         int getTinhTrang(){return tinhTrang;}
         void setTinhTrang(int x){tinhTrang = x;}
 
-        void Nhap(){
+        void Nhap()
+        {
             Sach::Nhap();
             cout << "Nhap tinh trang: ";
             cin >> tinhTrang;
         }
 
-        void Xuat(){
+        void Xuat()
+        {
             Sach::Xuat();
             if(tinhTrang == 0) cout << "Tinh trang: Moi" << "\n";
             else if(tinhTrang == 1) cout << "Tinh trang: Cu" << "\n";
         }
 
-        double ThanhTien() {
+        double ThanhTien() 
+        {
             if (tinhTrang == 1)
                 return soLuong * donGia;
             else
                 return soLuong * donGia * 0.5;
         }
 
-        int getLoai() {
+        int getLoai() 
+        {
             return 1;
         }
 };
 
-class STK : public Sach{
+class STK : public Sach
+{
     private:
         double tienThue;
     public:
         STK(const string& ms = "", const string& ts = "", const string& nxb = "", int soLuong = 0, double donGia = 0, double tt = -1)
             : Sach(ms, ts, nxb, soLuong, donGia), tienThue(tt){}
+
         ~STK(){}
 
         int getSoLuong(){return soLuong;}
         double getTienThue(){return tienThue;}
         void setTienThue(double x){tienThue = x;}
 
-        void Nhap(){
+        void Nhap()
+        {
             Sach::Nhap();
             cout << "Nhap tien thue: ";
             cin >> tienThue;
         }
 
-        void Xuat(){
+        void Xuat()
+        {
             Sach::Xuat();
             cout << "Tien thue: " << tienThue << "\n";
         }
 
-        double ThanhTien() {
+        double ThanhTien() 
+        {
             return soLuong * donGia + tienThue;
         }
 
-        int getLoai() {
+        int getLoai() 
+        {
             return 2;
         }
 };
 
-class ThuVien{
+class ThuVien
+{
     private:
         Sach **ds;
         int soLuong;
     public:
         ThuVien(int SoLuong = 0, Sach** ds = NULL) : soLuong(SoLuong), ds(new Sach*[SoLuong]) {}
-        ~ThuVien() {
+
+        ~ThuVien() 
+        {
             for (int i = 0; i < soLuong; i++)
                 delete ds[i];
             delete[] ds;
+            ds = NULL;
         }
         
-        void Nhap() {
+        void Nhap() 
+        {
             cout << "Nhap so luong: ";
             cin >> soLuong;
             int loai;
-            for (int i = 0; i < soLuong; i++) {
+            for (int i = 0; i < soLuong; i++) 
+            {
                 cout << "Nhap loai sach (0. SGK, 1. STK): ";
                 cin >> loai;
                 cin.ignore();
@@ -146,59 +170,58 @@ class ThuVien{
             }
         }
 
-        void Xuat() {
+        void Xuat() 
+        {
             cout << "So luong: " << soLuong << endl;
-            for (int i = 0; i < soLuong; i++) {
+            for (int i = 0; i < soLuong; i++) 
                 ds[i]->Xuat();
-            }
         }
 
-        double ThanhTienSGK() {
+        double ThanhTienSGK() 
+        {
             double tong = 0;
-            for (int i = 0; i < soLuong; i++) {
-                if (ds[i]->getLoai() == 1) {
+            for (int i = 0; i < soLuong; i++) 
+                if (ds[i]->getLoai() == 1) 
                     tong += ds[i]->ThanhTien();
-                }
-            }
             return tong;
         }
 
-        double ThanhTienStk() {
+        double ThanhTienStk() 
+        {
             double tong = 0;
-            for (int i = 0; i < soLuong; i++) {
-                if (ds[i]->getLoai() == 2) {
+            for (int i = 0; i < soLuong; i++) 
+                if (ds[i]->getLoai() == 2) 
                     tong += ds[i]->ThanhTien();
-                }
-            }
             return tong;
         }
 
-        double ThanhTienSGKNhoNhat() {
+        double ThanhTienSGKNhoNhat() 
+        {
             double giaNhoNhat = ds[0]->ThanhTien();
-            for (int i = 1; i < soLuong; i++) {
+            for (int i = 1; i < soLuong; i++) 
                 if (ds[i]->ThanhTien() < giaNhoNhat)
                     giaNhoNhat = ds[i]->ThanhTien();
-            }
             return giaNhoNhat;
         }
 
-        void TimKiemSachThanhTien() {
+        void TimKiemSachThanhTien() 
+        {
             double minGia = ThanhTienSGK();
-            for (int i = 0; i < soLuong; i++) {
+            for (int i = 0; i < soLuong; i++) 
                 if (ds[i]->ThanhTien() == minGia)
                     ds[i]->Xuat();
-            }
         }
 
-        void TimKiemTenNXB(string s) {
-            for (int i = 0; i < soLuong; i++) {
+        void TimKiemTenNXB(string s) 
+        {
+            for (int i = 0; i < soLuong; i++) 
                 if (ds[i]->getNhaXuatBan().compare(s) == 0)
                     ds[i]->Xuat();
-            }
         }
 };
 
-int main() {
+int main() 
+{
     ThuVien tv;
     tv.Nhap();
     tv.Xuat();
