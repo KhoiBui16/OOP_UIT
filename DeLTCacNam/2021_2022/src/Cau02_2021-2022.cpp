@@ -14,10 +14,13 @@ class CDonThuc
         double getSoMu() { return SoMu; }
         void setHeSo(double HeSo) { this->HeSo = HeSo; }
         void setSoMu(double SoMu) {this->SoMu = SoMu; }
-        double GiaTriDonThuc(double x) {
+
+        double GiaTriDonThuc(double x) 
+        {
             return HeSo * pow(x, SoMu);
         }
-        CDonThuc operator + (const CDonThuc& x) {
+        CDonThuc operator + (const CDonThuc& x) 
+        {
             CDonThuc temp(HeSo + x.HeSo, SoMu);
             return temp;
         }
