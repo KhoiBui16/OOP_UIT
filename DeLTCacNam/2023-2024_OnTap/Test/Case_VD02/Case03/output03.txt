@@ -1,0 +1,155 @@
+Thong tin cua cong ty:
+So luong nhan vien co trong cong ty: 10
+
+Thong tin nhan vien thu 1:
+Ma: LTV01
+Ho ten: NVA
+Tuoi: 25
+So dien thoai: 0123456789
+Email: LTV01@gmail.com
+Luong co ban: 3000
+So gio lam them cua lap trinh vien: 5
+Luong thang cua lap trinh vien: 1.003e+06
+
+Thong tin nhan vien thu 2: 
+Ma: KCV01
+Ho ten: NVB
+Tuoi: 30
+So dien thoai: 9876543210
+Email: KCV01@gmail.com
+Luong co ban: 4500
+So loi phat hien cua kiem chung vien: 8
+Luong thang cua kiem chung vien: 404500
+
+Thong tin nhan vien thu 3:
+Ma: KCV02
+Ho ten: NVC
+Tuoi: 22
+So dien thoai: 9859543210
+Email: KCV02@gmail.com
+Luong co ban: 3000
+So loi phat hien cua kiem chung vien: 5
+Luong thang cua kiem chung vien: 253000
+
+Thong tin nhan vien thu 4:
+Ma: LTV02
+Ho ten: NVD
+Tuoi: 20
+So dien thoai: 0123498789
+Email: LTV02@gmail.com
+Luong co ban: 2500
+So gio lam them cua lap trinh vien: 5
+Luong thang cua lap trinh vien: 1.0025e+06
+
+Thong tin nhan vien thu 5:
+Ma: LTV03
+Ho ten: NVD
+Tuoi: 40
+So dien thoai: 0123498789
+Email: LTV03@gmail.com
+Luong co ban: 6000
+So gio lam them cua lap trinh vien: 5
+Luong thang cua lap trinh vien: 1.006e+06
+
+Thong tin nhan vien thu 6:
+Ma: LTV04
+Ho ten: NVA
+Tuoi: 25
+So dien thoai: 0123456789
+Email: LTV04@gmail.com
+Luong co ban: 3000
+So gio lam them cua lap trinh vien: 5
+Luong thang cua lap trinh vien: 1.003e+06
+
+Thong tin nhan vien thu 7:
+Ma: KCV03
+Ho ten: NVB
+Tuoi: 30
+So dien thoai: 9876543210
+Email: KCV03@gmail.com
+Luong co ban: 4500
+So loi phat hien cua kiem chung vien: 8
+Luong thang cua kiem chung vien: 404500
+
+Thong tin nhan vien thu 8:
+Ma: KCV04
+Ho ten: NVC
+Tuoi: 22
+So dien thoai: 9859543210
+Email: KCV04@gmail.com
+Luong co ban: 3000
+So loi phat hien cua kiem chung vien: 5
+Luong thang cua kiem chung vien: 253000
+
+Thong tin nhan vien thu 9:
+Ma: LTV05
+Ho ten: NVD
+Tuoi: 20
+So dien thoai: 0123498789
+Email: LTV05@gmail.com
+Luong co ban: 2500
+So gio lam them cua lap trinh vien: 5
+Luong thang cua lap trinh vien: 1.0025e+06
+
+Thong tin nhan vien thu 10:
+Ma: LTV06
+Ho ten: NVD
+Tuoi: 40
+So dien thoai: 0123498789
+Email: LTV06@gmail.com
+Luong co ban: 6000
+So gio lam them cua lap trinh vien: 5
+Luong thang cua lap trinh vien: 1.006e+06
+
+Muc luong trung binh cua nhan vien trong cong ty: 733800
+
+Danh sach cac nhan vien co muc luong thap hon muc luong trung binh cua nhan vien:
+Ma: KCV01
+Ho ten: NVB
+Tuoi: 30
+So dien thoai: 9876543210
+Email: KCV01@gmail.com
+Luong co ban: 4500
+So loi phat hien cua kiem chung vien: 8
+Luong thang cua kiem chung vien: 404500
+Ma: KCV02
+Ho ten: NVC
+Tuoi: 22
+So dien thoai: 9859543210
+Email: KCV02@gmail.com
+Luong co ban: 3000
+So loi phat hien cua kiem chung vien: 5
+Luong thang cua kiem chung vien: 253000
+Ma: KCV03
+Ho ten: NVB
+Tuoi: 30
+So dien thoai: 9876543210
+Email: KCV03@gmail.com
+Luong co ban: 4500
+So loi phat hien cua kiem chung vien: 8
+Luong thang cua kiem chung vien: 404500
+Ma: KCV04
+Ho ten: NVC
+Tuoi: 22
+So dien thoai: 9859543210
+Email: KCV04@gmail.com
+Luong co ban: 3000
+So loi phat hien cua kiem chung vien: 5
+Luong thang cua kiem chung vien: 253000
+
+Ma: KCV01
+Ho ten: NVB
+Tuoi: 30
+So dien thoai: 9876543210
+Email: KCV01@gmail.com
+Luong co ban: 4500
+So loi phat hien cua kiem chung vien: 8
+Luong thang cua kiem chung vien: 404500
+Ma: KCV03
+Ho ten: NVB
+Tuoi: 30
+So dien thoai: 9876543210
+Email: KCV03@gmail.com
+Luong co ban: 4500
+So loi phat hien cua kiem chung vien: 8
+Luong thang cua kiem chung vien: 404500

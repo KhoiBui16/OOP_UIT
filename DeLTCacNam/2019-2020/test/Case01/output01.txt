@@ -1,0 +1,68 @@
++) Thong tin dat nha nuoc quan ly la:
+So luong thua dat: 2
+Thong tin thua dat thu 1:
+Thong tin so giay chung nhan: Thua Dat Nong Nghiep 01
+So nguoi so huu: 1
+Thong tin nguoi so huu thu 1:
+Ho ten chu so huu: Nguyen Van A
+Nam sinh chu so huu: 1975
+CMND chu so huu: 123456789
+Dia chi thuong tru chu so huu: 1/2/3 TPHCM
+So thua dat: 5
+So ban do: 2
+Dia chi dat: TP HCM
+Dien tich dat: 100
+Thong tin ngay cap: 1/1/1
+Don gia tren 1 met vuong la: 80
+Thoi han su dung dat(theo nam): 1
+Tien thue su dung dat: 8000
+Thong tin thua dat thu 2:
+Thong tin so giay chung nhan: Thua Dat Phi Nong Nghiep 01
+So nguoi so huu: 1
+Thong tin nguoi so huu thu 1:
+Ho ten chu so huu: Nguyen Van B
+Nam sinh chu so huu: 1980
+CMND chu so huu: 098765432
+Dia chi thuong tru chu so huu: 3/2/1 TP Nha Trang
+So thua dat: 4
+So ban do: 2
+Dia chi dat: TP Nha Trang
+Dien tich dat: 130
+Thong tin ngay cap: 1/2/2
+Don gia tren 1 met vuong la: 70
+Tien thue su dung dat: 9100
+
++) Tien thue phai dong cho nha nuoc: 17100
+
++) Thua dat dong thue nhieu nhat la:
+Thong tin so giay chung nhan: Thua Dat Phi Nong Nghiep 01
+So nguoi so huu: 1
+Thong tin nguoi so huu thu 1:
+Ho ten chu so huu: Nguyen Van B
+Nam sinh chu so huu: 1980
+CMND chu so huu: 098765432
+Dia chi thuong tru chu so huu: 3/2/1 TP Nha Trang
+So thua dat: 4
+So ban do: 2
+Dia chi dat: TP Nha Trang
+Dien tich dat: 130
+Thong tin ngay cap: 1/2/2
+Don gia tren 1 met vuong la: 70
+Tien thue su dung dat: 9100
+
++) Danh sach cac thua dat nong nghiep het han:
+Thong tin so giay chung nhan: Thua Dat Nong Nghiep 01
+So nguoi so huu: 1
+Thong tin nguoi so huu thu 1:
+Ho ten chu so huu: Nguyen Van A
+Nam sinh chu so huu: 1975
+CMND chu so huu: 123456789
+Dia chi thuong tru chu so huu: 1/2/3 TPHCM
+So thua dat: 5
+So ban do: 2
+Dia chi dat: TP HCM
+Dien tich dat: 100
+Thong tin ngay cap: 1/1/1
+Don gia tren 1 met vuong la: 80
+Thoi han su dung dat(theo nam): 1
+Tien thue su dung dat: 8000

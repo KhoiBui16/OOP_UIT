@@ -1,0 +1,113 @@
+ ----- Thong tin cua hang:
+- So luong hoa don: 4
+- Thong tin hoa don thu 1:
+- Ma hoa don: HD01
+- Thong tin cua khach hang:
+- Ma khach hang: KH01
+- Ho ten khach hang: Nguyen Van A
+- So dien thoai khach hang: 901234567
+- Ngay thanh lap hoa don: 1/1/1
+- So luong san pham: 2
+Thong tin so luong san pham thu 1:
+- Ma so san pham: TA01
+- Tieu de san pham: TranhAnh01
+- Gia ban san pham: 100000
+- Chieu cao tranh anh: 50
+- Chieu rong tranh anh: 60
+- Ten hoa si tranh anh: Le Van Teo
+Thong tin so luong san pham thu 2:
+- Ma so san pham: CD01
+- Tieu de san pham: Dia CD hothit
+- Gia ban san pham: 600000
+- Ten ca si cua CD: Le Van Dat
+- Don vi san xuat cua CDNXB VN
+Tong gia cua hoa don: 700000
+- Thong tin hoa don thu 2:
+- Ma hoa don: HD02
+- Thong tin cua khach hang:
+- Ma khach hang: KH02
+- Ho ten khach hang: Nguyen Van B
+- So dien thoai khach hang: 901234568
+- Ngay thanh lap hoa don: 1/2/3
+- So luong san pham: 2
+Thong tin so luong san pham thu 1:
+- Ma so san pham: TA02
+- Tieu de san pham: TranhAnh02
+- Gia ban san pham: 10000
+- Chieu cao tranh anh: 40
+- Chieu rong tranh anh: 60
+- Ten hoa si tranh anh: Le Van Minh
+Thong tin so luong san pham thu 2:
+- Ma so san pham: CD02
+- Tieu de san pham: Dia CD hothit ver 02
+- Gia ban san pham: 80000
+- Ten ca si cua CD: Le Van Teo
+- Don vi san xuat cua CDNXB Anh
+Tong gia cua hoa don: 90000
+- Thong tin hoa don thu 3:
+- Ma hoa don: HD03
+- Thong tin cua khach hang:
+- Ma khach hang: KH01
+- Ho ten khach hang: Nguyen Van A
+- So dien thoai khach hang: 901234567
+- Ngay thanh lap hoa don: 2/3/4
+- So luong san pham: 2
+Thong tin so luong san pham thu 1:
+- Ma so san pham: TA01
+- Tieu de san pham: TranhAnh01
+- Gia ban san pham: 100000
+- Chieu cao tranh anh: 100
+- Chieu rong tranh anh: 80
+- Ten hoa si tranh anh: Le Van Teo
+Thong tin so luong san pham thu 2:
+- Ma so san pham: CD01
+- Tieu de san pham: Dia CD hothit ver 03
+- Gia ban san pham: 200000
+- Ten ca si cua CD: Le Van Minh
+- Don vi san xuat cua CDNXB VN
+Tong gia cua hoa don: 300000
+- Thong tin hoa don thu 4:
+- Ma hoa don: HD04
+- Thong tin cua khach hang:
+- Ma khach hang: KH03
+- Ho ten khach hang: Nguyen Van C
+- So dien thoai khach hang: 901234569
+- Ngay thanh lap hoa don: 21/1/4
+- So luong san pham: 2
+Thong tin so luong san pham thu 1:
+- Ma so san pham: TA04
+- Tieu de san pham: TranhAnh04
+- Gia ban san pham: 30000
+- Chieu cao tranh anh: 30
+- Chieu rong tranh anh: 20
+- Ten hoa si tranh anh: Le Van Viet
+Thong tin so luong san pham thu 2:
+- Ma so san pham: CD04
+- Tieu de san pham: Dia CD hothit ver 04
+- Gia ban san pham: 80000
+- Ten ca si cua CD: Le Van Teo
+- Don vi san xuat cua CDNXB Anh
+Tong gia cua hoa don: 110000
+
+ ----- Danh sach khach mua nhieu nhat:
+- Ma hoa don: HD03
+- Thong tin cua khach hang:
+- Ma khach hang: KH01
+- Ho ten khach hang: Nguyen Van A
+- So dien thoai khach hang: 901234567
+- Ngay thanh lap hoa don: 2/3/4
+- So luong san pham: 2
+Thong tin so luong san pham thu 1:
+- Ma so san pham: TA01
+- Tieu de san pham: TranhAnh01
+- Gia ban san pham: 100000
+- Chieu cao tranh anh: 100
+- Chieu rong tranh anh: 80
+- Ten hoa si tranh anh: Le Van Teo
+Thong tin so luong san pham thu 2: 
+- Ma so san pham: CD01
+- Tieu de san pham: Dia CD hothit ver 03
+- Gia ban san pham: 200000
+- Ten ca si cua CD: Le Van Minh
+- Don vi san xuat cua CDNXB VN
+Tong gia cua hoa don: 300000

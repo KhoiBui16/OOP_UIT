@@ -1,0 +1,24 @@
+Câu 1:
+Trong lập trình hướng đối tượng:
+    - class (lớp) -	Là Một mô tả trừu tượng của các nhóm đối tượng cùng bản chất, 
+    hiểu đơn giản nhất là sự tích hợp của 2 thành phần:
+        o Thành phần dữ liệu: các thông tin về chính đối tượng.
+        o Thành phần hành động: các khả năng mà đối tượng có thể thực hiện.
+
+    - object(đối tượng) - thuộc về 1 lớp là sự thể hiện những mô tả trừu tượng của lớp đó,
+    có thể có nhiều đối tượng cùng thuộc về 1 lớp
+
+Ví dụ minh họa:
+    - Lớp xe là 1 nhóm các đối tượng cùng các thuộc bản chất có trong xe
+    như:
+        o Thành phần dữ liệu: số bánh, loại động cơ, màu sắc,...
+        o Thành phần hành động: : lái, dừng, tăng tốc, giảm tốc,...
+
+    - Trong lớp xe thì có nhiều đối tượng thể hiện bản chất đó như:
+    + xe đạp:
+        o Thành phần dữ liệu: 2 bánh , Màu sắc, Chất liệu khung, 1 - 2 chỗ ngồi,...
+        o Thành phần hành động: Đạp xe, Dừng lại, Điều khiển hướng,...
+
+    +xe ô tô con
+        o Thành phần dữ liệu: 4 bánh, Màu sắc, Năm sản xuất, 4 - 7 chỗ ngồi
+        o Thành phần hành động: Khởi động, Dừng lại, Chuyển số, Điều khiển hướng,..

@@ -1,0 +1,85 @@
+4
+HD01
+KH01
+Nguyen Van A
+0901234567
+1
+1
+1
+2
+0
+TA01
+TranhAnh01
+100000
+50
+60
+Le Van Teo
+1
+CD01
+Dia CD hothit
+600000
+Le Van Dat
+NXB VN
+HD02
+KH02
+Nguyen Van B
+0901234568
+1
+2
+3
+2
+0
+TA02
+TranhAnh02
+10000
+40
+60
+Le Van Minh
+1
+CD02
+Dia CD hothit ver 02
+80000
+Le Van Teo
+NXB Anh
+HD03
+KH01
+Nguyen Van A
+0901234567
+2
+3
+4
+2
+0
+TA01
+TranhAnh01
+100000
+100
+80
+Le Van Teo
+1
+CD01
+Dia CD hothit ver 03
+200000
+Le Van Minh
+NXB VN
+HD04
+KH03
+Nguyen Van C
+0901234569
+21
+1
+4
+2
+0
+TA04
+TranhAnh04
+30000
+30
+20
+Le Van Viet
+1
+CD04
+Dia CD hothit ver 04
+80000
+Le Van Teo
+NXB Anh

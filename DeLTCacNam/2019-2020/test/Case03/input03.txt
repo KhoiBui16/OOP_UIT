@@ -1,0 +1,69 @@
+3
+0
+Thua Dat Nong Nghiep 01
+2
+Nguyen Van A
+1975
+123456789
+1/2/3 TPHCM
+Nguyen Van B
+1990
+123456654
+1/2/3 TPHCM
+5
+2
+TP HCM
+90
+15
+1 
+1904
+1000
+10
+1
+Thua Dat Phi Nong Nghiep 01
+3
+Nguyen Van B
+1980
+098765432
+3/2/1 TP Nha Trang
+Nguyen Van D
+1999
+098765454
+3/2/1 TP Nha Trang
+Nguyen Van G
+2000
+098565432
+3/2/1 TP Nha Trang
+4
+2
+TP Nha Trang
+138
+1 
+2 
+2000
+70
+0
+Thua Dat Nong Nghiep 02
+3
+Nguyen Van A
+1975
+123456789
+1/2/3 TPHCM
+Nguyen Van B
+1990
+123456654
+1/2/3 TPHCM
+Nguyen Van C
+2000
+123456654
+1/4/3 Cu Chi TPHCM
+5
+2
+TP HCM
+90
+15
+1 
+1904
+1000
+100
+2000

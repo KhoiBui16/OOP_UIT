@@ -1,0 +1,33 @@
+2
+0
+Thua Dat Nong Nghiep 01
+1
+Nguyen Van A
+1975
+123456789
+1/2/3 TPHCM
+5
+2
+TP HCM
+100
+1 
+1 
+1
+80
+1
+1
+Thua Dat Phi Nong Nghiep 01
+1
+Nguyen Van B
+1980
+098765432
+3/2/1 TP Nha Trang
+4
+2
+TP Nha Trang
+130
+1 
+2 
+2
+70
+2024

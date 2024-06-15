@@ -1,0 +1,49 @@
+Thong tin cong vien van hoa Dam sen:
+So ve la: 2
+
+Thong tin ve thanh phan thu 1:
+Ma ve: TP01
+Ho ten chu ve: NVA
+Nam sinh chu ve: 2005
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 30
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 670000
+
+Thong tin ve thanh phan thu 2:
+Ma ve: TG01
+Ho ten chu ve: NVB
+Nam sinh chu ve: 2000
+Gia ve tron goi: 200000
+So tro choi tron goi: 30
+
+Tong ve tung phan cong vien van hoa Dam Sen thu duoc: 670000
+
+Danh sach cac ve tung phan co gia ve cao nhat:
+Ma ve: TP01
+Ho ten chu ve: NVA
+Nam sinh chu ve: 2005
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 30
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 670000
+
+So luong ve tron goi cong vien da ban: 1
+
+So luong ve tung phan cong vien da ban: 1
+
+Danh sach cac ve sau khi sap xep theo yeu cau:
+So ve la: 2
+
+Thong tin ve thanh phan thu 1:
+Ma ve: TG01
+Ho ten chu ve: NVB
+Nam sinh chu ve: 2000
+Gia ve tron goi: 200000
+So tro choi tron goi: 30
+
+Thong tin ve thanh phan thu 2:
+Ma ve: TP01
+Ho ten chu ve: NVA
+Nam sinh chu ve: 2005
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 30
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 670000

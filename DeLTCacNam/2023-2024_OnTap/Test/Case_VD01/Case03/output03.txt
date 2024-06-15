@@ -1,0 +1,117 @@
+Thong tin cong vien van hoa Dam sen:
+So ve la: 6
+
+Thong tin ve thanh phan thu 1:
+Ma ve: TP01
+Ho ten chu ve: NVA
+Nam sinh chu ve: 2005
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 10
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 270000
+
+Thong tin ve thanh phan thu 2:
+Ma ve: TG01
+Ho ten chu ve: NVB
+Nam sinh chu ve: 2000
+Gia ve tron goi: 200000
+So tro choi tron goi: 30
+
+Thong tin ve thanh phan thu 3:
+Ma ve: TG02
+Ho ten chu ve: NVC
+Nam sinh chu ve: 2000
+Gia ve tron goi: 200000
+So tro choi tron goi: 30
+
+Thong tin ve thanh phan thu 4:
+Ma ve: TP02
+Ho ten chu ve: NVD
+Nam sinh chu ve: 1998
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 10
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 270000
+
+Thong tin ve thanh phan thu 5:
+Ma ve: TP03
+Ho ten chu ve: NVE
+Nam sinh chu ve: 1990
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 15
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 370000
+
+Thong tin ve thanh phan thu 6:
+Ma ve: TP04
+Ho ten chu ve: NVE
+Nam sinh chu ve: 1990
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 15
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 370000
+
+Tong ve tung phan cong vien van hoa Dam Sen thu duoc: 1280000
+
+Danh sach cac ve tung phan co gia ve cao nhat:
+Ma ve: TP03
+Ho ten chu ve: NVE
+Nam sinh chu ve: 1990
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 15
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 370000
+Ma ve: TP04
+Ho ten chu ve: NVE
+Nam sinh chu ve: 1990
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 15
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 370000
+
+So luong ve tron goi cong vien da ban: 2
+
+So luong ve tung phan cong vien da ban: 4
+
+Danh sach cac ve sau khi sap xep theo yeu cau:
+So ve la: 6
+
+Thong tin ve thanh phan thu 1:
+Ma ve: TG01
+Ho ten chu ve: NVB
+Nam sinh chu ve: 2000
+Gia ve tron goi: 200000
+So tro choi tron goi: 30
+
+Thong tin ve thanh phan thu 2:
+Ma ve: TG02
+Ho ten chu ve: NVC
+Nam sinh chu ve: 2000
+Gia ve tron goi: 200000
+So tro choi tron goi: 30
+
+Thong tin ve thanh phan thu 3:
+Ma ve: TP03
+Ho ten chu ve: NVE
+Nam sinh chu ve: 1990
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 15
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 370000
+
+Thong tin ve thanh phan thu 4:
+Ma ve: TP04
+Ho ten chu ve: NVE
+Nam sinh chu ve: 1990
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 15
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 370000
+
+Thong tin ve thanh phan thu 5:
+Ma ve: TP01
+Ho ten chu ve: NVA
+Nam sinh chu ve: 2005
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 10
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 270000
+
+Thong tin ve thanh phan thu 6:
+Ma ve: TP02
+Ho ten chu ve: NVD
+Nam sinh chu ve: 1998
+Gia ve tung phan (gia ve vao cong): 70000
+So tro choi thanh phan: 10
+Tong gia ve tung phan (so tro choi * 20000 choi + gia ve tung phan): 270000
