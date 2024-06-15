@@ -443,18 +443,10 @@ class CNhaNuoc
 
         CDat* ThuaDatDongTienThueNhieuNhat()
         {
-            double TienThueLonNhat = DanhSach[0]->TienThueSuDungDat();
             CDat* ThuaDatNhieuNhat = DanhSach[0];
-            
             for (int i = 1; i < SoLuongDat; i++)
-            {
-                if (DanhSach[i]->TienThueSuDungDat() > TienThueLonNhat)
-                {
-                    TienThueLonNhat = DanhSach[i]->TienThueSuDungDat();
+                if (DanhSach[i]->TienThueSuDungDat() > ThuaDatNhieuNhat->TienThueSuDungDat())
                     ThuaDatNhieuNhat = DanhSach[i];
-                }
-            }
-            
             return ThuaDatNhieuNhat;
         }
 
