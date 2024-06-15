@@ -398,7 +398,6 @@ class CNhaNuoc
                 delete DanhSach[i];
             delete[] DanhSach;
             DanhSach = NULL;
-            SoLuongDat = 0;
         }
 
         void Nhap()
