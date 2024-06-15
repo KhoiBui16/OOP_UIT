@@ -38,7 +38,7 @@ class CVe
         virtual long long getGiaVe() = 0;
         virtual void setGiaVe(long long) = 0;
         virtual int getSoTroChoi() = 0;
-        virtual void setSoTroChoi(int SoTroChoi) = 0;
+        virtual void setSoTroChoi(int) = 0;
         virtual int getLoai() = 0;
         virtual int SoVeTronGoi() = 0;
         virtual int SoVeTungPhan() = 0;
