@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 class CNgay 
 {
     private:
@@ -32,7 +31,10 @@ class CNgay
             cin >> Nam;
         }
 
-        void Xuat() { cout << Ngay << "/" << Thang << "/" << Nam << endl; }
+        void Xuat() 
+        { 
+            cout << Ngay << "/" << Thang << "/" << Nam << endl; 
+        }
 
         CNgay& operator = (const CNgay& x)
         {
@@ -295,7 +297,6 @@ class CNhaNuoc
                 delete DanhSach[i];
             delete[] DanhSach;
             DanhSach = NULL;
-            SoLuongDat = 0;
         }
 
         void Nhap()
@@ -324,6 +325,7 @@ class CNhaNuoc
             cout << "So luong thua dat: " << SoLuongDat << endl;
             for (int i = 0; i < SoLuongDat; i++)
             {
+                cout << '\n';
                 cout << "Thong tin thua dat thu " << i + 1 << ": " << endl;
                 DanhSach[i]->Xuat();
             }
@@ -339,30 +341,24 @@ class CNhaNuoc
 
         CDat* ThuaDatDongTienThueNhieuNhat()
         {
-            double TienThueLonNhat = DanhSach[0]->TienThueSuDungDat();
             CDat* ThuaDatNhieuNhat = DanhSach[0];
             
             for (int i = 1; i < SoLuongDat; i++)
-            {
-                if (DanhSach[i]->TienThueSuDungDat() > TienThueLonNhat)
-                {
-                    TienThueLonNhat = DanhSach[i]->TienThueSuDungDat();
+                if (DanhSach[i]->TienThueSuDungDat() > ThuaDatNhieuNhat->TienThueSuDungDat())
                     ThuaDatNhieuNhat = DanhSach[i];
-                }
-            }
-            
             return ThuaDatNhieuNhat;
         }
 
         void DanhSachDatNongNghiepHetHanSuDung(int NamHienTai, int& SoDatHethan)
         {
             for (int i = 0; i < SoLuongDat; i++)
+            {
                 if (DanhSach[i]->getLoai() == 1 && DanhSach[i]->ThoiHanSuDungDat() < NamHienTai)
                 {
-                    cout << '\n';
                     DanhSach[i]->Xuat();
                     SoDatHethan++;
                 }
+            }
         }
 };
 
@@ -371,17 +367,22 @@ int main()
     CNhaNuoc NhaNuoc;
     cout << "+) Nhap thong tin dat nha nuoc quan ly: " << endl;
     NhaNuoc.Nhap();
+
     cout << "\n+) Thong tin dat nha nuoc quan ly la: " << endl;
     NhaNuoc.Xuat();
+
     cout << "\n+) Tien thue phai dong cho nha nuoc: ";
     double TienThueDongChoNhaNuoc = NhaNuoc.TienThueSuDungDat();
     cout << TienThueDongChoNhaNuoc << endl;
+
     cout << "\n+) Thua dat dong thue nhieu nhat la: " << endl;
     NhaNuoc.ThuaDatDongTienThueNhieuNhat()->Xuat();
-    int NamHienTai, SoDatHetHan = 0;
+
     cout << "\n+) Nhap nam hien tai de tim kiem thua dat het han su dung dat (theo nam): ";
+    int NamHienTai, SoDatHetHan = 0;
     cin >> NamHienTai;
     cin.ignore();
+    
     cout << "+) Danh sach cac thua dat nong nghiep het han: ";
     NhaNuoc.DanhSachDatNongNghiepHetHanSuDung(NamHienTai, SoDatHetHan);
     if (SoDatHetHan == 0)
