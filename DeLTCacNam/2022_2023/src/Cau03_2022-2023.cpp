@@ -30,11 +30,13 @@ class CNgay
             cin >> Nam;
         }
 
-        void Xuat() { 
+        void Xuat() 
+        { 
             cout << Ngay << "/" << Thang << "/" << Nam << endl;
         }
 
-        CNgay& operator = (const CNgay& x) {
+        CNgay& operator = (const CNgay& x) 
+        {
             Ngay = x.Ngay;
             Thang = x.Thang;
             Nam = x.Nam;
@@ -60,7 +62,8 @@ class CKhachKhang
         void setHoTen(string HoTen) { this->HoTen = HoTen; }
         void setSoDienThoai(string SoDienThoai) { this->SoDienThoai = SoDienThoai; }
 
-        void Nhap() {
+        void Nhap() 
+        {
             cout << "+) Nhap ma khach hang: ";
             getline(cin, Ma);
             cout << "+) Nhap ho ten khach hang: ";
@@ -70,7 +73,8 @@ class CKhachKhang
             cin.ignore();
         }
 
-        void Xuat() {
+        void Xuat() 
+        {
             cout << "- Ma khach hang: " << Ma << endl;
             cout << "- Ho ten khach hang: " << HoTen << endl;
             cout << "- So dien thoai khach hang: " << SoDienThoai << endl;
@@ -102,7 +106,8 @@ class CSanPham
         void setTieuDe(string TieuDe) { this->TieuDe = TieuDe; }
         void setGiaBan(double GiaBan) { this->GiaBan = GiaBan; }
 
-        virtual void Nhap() {
+        virtual void Nhap() 
+        {
             cout << "+) Nhap ma so san pham: ";
             getline(cin, MaSo);
             cout << "+) Nhap tieu de san pham: ";
@@ -112,7 +117,8 @@ class CSanPham
             cin.ignore();            
         }
 
-        virtual void Xuat() {
+        virtual void Xuat() 
+        {
             cout << "- Ma so san pham: " << MaSo << endl;
             cout << "- Tieu de san pham: "<< TieuDe << endl;
             cout << "- Gia ban san pham: "<< GiaBan << endl;
@@ -139,7 +145,8 @@ class CTranhAnh : public CSanPham
         void setChieuRong(double ChieuRong) { this->ChieuRong = ChieuRong; }
         void setTenHoaSi(string TenHoaSi) { this->TenHoaSi = TenHoaSi; }
 
-        void Nhap() {
+        void Nhap() 
+        {
             CSanPham::Nhap();
             cout << "+) Nhap chieu cao tranh anh: ";
             cin >> ChieuCao;
@@ -150,15 +157,18 @@ class CTranhAnh : public CSanPham
             getline(cin, TenHoaSi);
         }
 
-        void Xuat() {
+        void Xuat() 
+        {
             CSanPham::Xuat();
             cout << "- Chieu cao tranh anh: " << ChieuCao << endl;
             cout << "- Chieu rong tranh anh: " << ChieuRong << endl;
             cout << "- Ten hoa si tranh anh: " << TenHoaSi << endl;
         }
         
-        double TongGiaBan() { 
-            return GiaBan; }
+        double TongGiaBan() 
+        { 
+            return GiaBan; 
+        }
 };
 
 class CCD : public CSanPham 
@@ -176,7 +186,8 @@ class CCD : public CSanPham
         void setTenCaSi(string TenCaSi) { this->TenCaSi = TenCaSi; }
         void setDonViSanXuat(string DonViSanXuat) { this->DonViSanXuat = DonViSanXuat; }
 
-        void Nhap() {
+        void Nhap() 
+        {
             CSanPham::Nhap();
             cout << "+) Nhap ten ca si cua CD: ";
             getline(cin, TenCaSi);
@@ -184,13 +195,15 @@ class CCD : public CSanPham
             getline(cin, DonViSanXuat);
         }
 
-        void Xuat() {
+        void Xuat() 
+        {
             CSanPham::Xuat();
             cout << "- Ten ca si cua CD: " << TenCaSi << endl;
             cout << "- Don vi san xuat cua CD" << DonViSanXuat << endl;
         }
 
-        double TongGiaBan() {
+        double TongGiaBan() 
+        {
             return GiaBan;
         }
 };
@@ -207,12 +220,12 @@ class CHoaDon
     public:
         CHoaDon(string MaHoaDon = "", int SoLuongSanPham = 0, double TongGia = 0, CSanPham** DanhSachSanPham = NULL) : MaHoaDon(MaHoaDon), TongGia(TongGia) ,SoLuongSanPham(SoLuongSanPham), DanhsachSanPham(DanhSachSanPham) {}
 
-        ~CHoaDon() {
+        ~CHoaDon() 
+        {
             for (int i = 0; i < SoLuongSanPham; i++)
                 delete DanhsachSanPham[i];
             delete[] DanhsachSanPham;
             DanhsachSanPham = NULL;
-            SoLuongSanPham = 0;
         }
 
         string getMaHoaDon() { return MaHoaDon; }
@@ -227,7 +240,8 @@ class CHoaDon
         void setSoLuongSanPham(int SoLuongSanPham) { this->SoLuongSanPham = SoLuongSanPham; }
         void setTongGia(double TongGia) { this->TongGia = TongGia; }
 
-        void Nhap() {
+        void Nhap() 
+        {
             cout << "+) Nhap ma hoa don: ";
             getline(cin, MaHoaDon);
             cout << "+) Nhap thong tin khach hang: " << endl;
@@ -254,7 +268,8 @@ class CHoaDon
             }
         }
 
-        void Xuat() {
+        void Xuat() 
+        {
             cout << "- Ma hoa don: " << MaHoaDon << endl;
             cout << "- Thong tin cua khach hang: " << endl;
             ThongTinKhachHang.Xuat();
@@ -270,7 +285,8 @@ class CHoaDon
             cout << "Tong gia cua hoa don: " << TongGia << endl;
         }
 
-        double TongGiaHoaDon() {
+        double TongGiaHoaDon() 
+        {
             double Tong = 0;
             for (int i = 0; i < SoLuongSanPham; i++)
                 Tong = Tong + DanhsachSanPham[i]->TongGiaBan();
@@ -286,13 +302,14 @@ class CCuaHang
     public:
         CCuaHang(int SoLuongHoaDon = 0, CHoaDon* DanhSachHoaDon = NULL) : SoLuongHoaDon(SoLuongHoaDon), DanhSachHoaDon(DanhSachHoaDon) {}
 
-        ~CCuaHang(){
+        ~CCuaHang()
+        {
             delete[] DanhSachHoaDon;
-            SoLuongHoaDon = 0;
             DanhSachHoaDon = NULL;
         }
 
-        void Nhap() {
+        void Nhap() 
+        {
             cout << "+) Nhap so luong hoa don: ";
             cin >> SoLuongHoaDon;
             cin.ignore();
@@ -304,7 +321,8 @@ class CCuaHang
             }
         }
 
-        void Xuat() {
+        void Xuat() 
+        {
             cout << "- So luong hoa don: " << SoLuongHoaDon << endl;
             for (int i = 0; i < SoLuongHoaDon; i++) 
             { 
@@ -313,7 +331,8 @@ class CCuaHang
             }
         }
 
-        double TongGiaTriKhachHangMua(int idx) {
+        double TongGiaTriKhachHangMua(int idx) 
+        {
             double TongAi = DanhSachHoaDon[idx].getTongGia();
             for (int i = idx + 1; i < SoLuongHoaDon; i++)
             {
