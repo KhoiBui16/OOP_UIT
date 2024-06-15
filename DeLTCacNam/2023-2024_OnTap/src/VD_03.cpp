@@ -427,6 +427,7 @@ class CNhaNuoc
             cout << "So luong thua dat: " << SoLuongDat << endl;
             for (int i = 0; i < SoLuongDat; i++)
             {
+                cout << '\n';
                 cout << "Thong tin thua dat thu " << i + 1 << ": " << endl;
                 DanhSach[i]->Xuat();
             }
@@ -462,7 +463,6 @@ class CNhaNuoc
             for (int i = 0; i < SoLuongDat; i++)
                 if (DanhSach[i]->getLoai() == 1 && DanhSach[i]->ThoiHanSuDungDat() < NamHienTai)
                 {
-                    cout << '\n';
                     DanhSach[i]->Xuat();
                     SoDatHethan++;
                 }
