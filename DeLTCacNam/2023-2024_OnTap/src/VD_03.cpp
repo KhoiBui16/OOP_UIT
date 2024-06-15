@@ -22,11 +22,12 @@ class CNgay
         int getThang() 
         { 
             return Thang; 
-            }
+        }
+
         int getNam() 
         { 
             return Nam; 
-            }
+        }
 
         void setNgay(int ngay) 
         { 
